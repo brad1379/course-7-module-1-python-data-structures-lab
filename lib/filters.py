@@ -8,5 +8,4 @@ def filter_students_by_major(student_list, major):
     - Return a new list containing only students that match.
     """
     filtered_students = [student for student in student_list if student[2].lower() == major.lower()]
-
     return filtered_students
